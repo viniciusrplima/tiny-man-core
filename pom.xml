@@ -6,11 +6,11 @@
 
   <groupId>com.pacheco.game</groupId>
   <artifactId>tiny-man-core</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
 
   <name>tiny-man-core</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>http://www.github.com/viniciusrplima/tiny-man-core</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -72,4 +72,12 @@
       </plugins>
     </pluginManagement>
   </build>
+
+    <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/viniciusrplima/tiny-man-core</url>
+    </repository>
+  </distributionManagement>
 </project>
